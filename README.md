@@ -4,8 +4,10 @@
 
 The goal of this project is to build a new portfolio that showcases my skills, work, as well as provides content other developers may find useful. Specifically, the content will be centered around tutorials, updates on projects and technologies I am working on, open source tools, and of course, a way for employers to get in contact with me.
 
-## To Add:
+## To Do:
 
+-   delete skills section
+-   get rid of burger menu
 -   Documentation
 -   APIs
 
