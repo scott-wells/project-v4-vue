@@ -1,26 +1,33 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!-- <NavigationComponent/>
+    <HeroSection/> -->
+    <HeroSection2/>
+    <SkillsSection/>
+    <ProjectsSection/>
+    <FooterComponent/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HeroSection2 from './components/HeroSection2.vue';
+// import NavigationComponent from './components/NavigationComponent.vue';
+import FooterComponent from './components/FooterComponent.vue';
+// import HeroSection from './components/HeroSection.vue';
+import ProjectsSection from './components/ProjectsSection.vue';
+import SkillsSection from './components/SkillsSection.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    // NavigationComponent,
+    // HeroSection,
+    HeroSection2,
+    SkillsSection,
+    ProjectsSection,
+    FooterComponent
+}
 }
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+
+
+<style src="./assets/tailwind.css" />
