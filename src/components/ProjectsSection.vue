@@ -93,26 +93,9 @@
 
 <script setup>
 
-// components
-import ProjectComponent from "@/components/ProjectComponent.vue"
-// icons
-import iconGatsby from "@/assets/images/icons/IconGatsby.vue"
-import iconJavascript from "@/assets/images/icons/IconJavascript.vue"
-import iconReact from "@/assets/images/icons/IconReact.vue"
-// import iconSanity from "@/assets/images/icons/IconSanity.vue"
-import iconSquarespace from "@/assets/images/icons/IconSquarespace.vue"
-import iconTailwind from "@/assets/images/icons/IconTailwind.vue"
-import iconVue from "@/assets/images/icons/IconVue.vue"
+import ProjectComponent from "@/components/ProjectComponent.vue";
 
-const iconsList = [
-        iconGatsby,
-        iconJavascript,
-        iconReact,
-        // iconSanity,
-        iconSquarespace,
-        iconTailwind,
-        iconVue
-]
+const iconsList = [];
 
 </script>
   

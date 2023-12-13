@@ -8,16 +8,8 @@ module.exports = {
         extend: {
             colors: {
               brown: {
-                50: '#f2ece0',
-                100: '#dacfc7',
-                200: '#bea897',
-                300: '#a98b75',
-                400: '#8a6c55',
-                500: '#4D3223',
-                600: '#40200a',
-                700: '#3f3024',
-                800: '#2D1E0D',
-                900: '#0e0802',
+                'primary': 'rgba(70,32,0,1)',
+                'secondary': 'rgba(70,32,0,0.5)'
               },
               'theme-slate': {
                 300: '#747B81',
@@ -37,7 +29,16 @@ module.exports = {
             backgroundImage: {
                 'hero-mobile': "url('../assets/images/desert_vert_xl_02.jpg')",
                 'hero': "url('../assets/images/desert_xl.jpg')",
-            }
+            },
+            height: {
+              '128': '32rem',
+              '168': '42rem',
+              '256': '64rem',
+            },
+            lineHeight: {
+              '12': '3rem',
+              '13-half': '3.35rem',
+            },
           },
     },
     variants: {},

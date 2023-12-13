@@ -6,8 +6,8 @@ The goal of this project is to build a new portfolio that showcases my skills, w
 
 ## To Do:
 
--   delete skills section
--   get rid of burger menu
+-   ~~delete skills section~~
+-   ~~get rid of burger menu~~
 -   Documentation
 -   APIs
 
@@ -16,8 +16,6 @@ The goal of this project is to build a new portfolio that showcases my skills, w
 ### Portfolio Website Outline
 
 -   Home page
-    <!-- hero and nav -->
-    <!-- nav is transparent and border less -->
     <!-- nav on desktop starts at bottom and becomes sticky on scroll -->
     -   navigation
         -   projects (_links to current web sites, apps, open source_)
