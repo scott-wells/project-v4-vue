@@ -1,27 +1,35 @@
 <template>
-    <!-- hero container -->
-	<header class="h-168 sm:128 bg-hero-mobile sm:bg-hero bg-cover bg-center pl-4 pr-4">
-        <!-- nav container -->
-        <nav class="bg-none h-20 flex items-center justify-between w-full">
-            <div>
-                <a class="font-black text-2xl tracking-tighter cursor-pointer">SW</a>
+	<header 
+        class="
+            py-8 px-6 h-160 sm:128 bg-hero-mobile sm:bg-hero 
+            bg-cover bg-center border-b-8 border-brown-primary
+        "
+    >
+        <nav class="w-full bg-none flex items-center justify-between gap-8 text-brown-primary">
+            <div class="border-b border-transparent transition-all duration-300 hover:border-brown-secondary">
+                <a 
+                    class="font-black text-2xl md:text-3xl tracking-tighter cursor-pointer"
+                    href="/"
+                    target="_top"
+                >
+                SW
+                </a>
             </div>
             <ul class="flex gap-6">
-                <li>
-                    <a class="flex-1" href="#">
-                        Skills
+                <li class="border-b border-transparent transition-all duration-500 hover:border-brown-secondary">
+                    <a href="#project-section">
+                        About
                     </a>
                 </li>
-                <li>
-                    <a class="flex-1" href="#">
+                <li class="border-b border-transparent transition-all duration-300 hover:border-brown-secondary">
+                    <a href="#project-section">
                         Projects
                     </a>
                 </li>
             </ul>
         </nav>
 
-        <!-- title container -->
-        <div class="flex flex-col items-center justify-center h-hero-custom">
+        <div class="h-full pb-36 flex flex-col items-center justify-center">
             <div class="flex flex-col items-center justify-center text-center text-brown-primary">
                 <div class="flex flex-col font-black text-7xl tracking-tighter leading-13-half">
                     <span>SCOTT</span>
@@ -43,6 +51,6 @@
 
 <style scoped>
 .h-hero-custom {
-    height: calc(100% - 14rem);
+    height: calc(100% - 10rem);
 }
 </style>

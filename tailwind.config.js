@@ -9,21 +9,20 @@ module.exports = {
             colors: {
               brown: {
                 'primary': 'rgba(70,32,0,1)',
-                'secondary': 'rgba(70,32,0,0.5)'
+                'secondary': 'rgba(70,32,0,0.8)',
+                'tertiary': 'rgba(70,32,0,0.3)'
               },
-              'theme-slate': {
-                300: '#747B81',
-                500: '#334348',
-                900: '#16181b'
+              'light-brown': {
+                'primary': '#efe1cd',
               },
-              'theme-orange': {
-                300: '#845332',
-                500: '#5e3317'
+              'blue': {
+                primary: '#3e5060',
               },
-              'theme-gray': {
-                100: '#e8ded6',
-                200: '#C1B9B6',
-                300: '#b6afa9',
+              'pink': {
+                primary: 'rgb(145,111,95,1)',
+              },
+              'gray': {
+                primary: 'rgb(63,60,59,1)'
               }
             },
             backgroundImage: {
@@ -32,6 +31,7 @@ module.exports = {
             },
             height: {
               '128': '32rem',
+              '160': '40rem',
               '168': '42rem',
               '256': '64rem',
             },
@@ -39,6 +39,12 @@ module.exports = {
               '12': '3rem',
               '13-half': '3.35rem',
             },
+            gridTemplateRows: {
+              'hero': '1fr 2fr',
+            },
+            dropShadow: {
+              'box': '5px 10px 0px rgba(0, 0, 0, 0.5)',
+            }
           },
     },
     variants: {},

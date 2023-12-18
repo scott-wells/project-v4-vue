@@ -1,15 +1,19 @@
 <template>
-    <button class="px-3 py-2 text-xs font-sm text-center text-brown-primary bg-theme-orange-300 border-2 focus:ring-4 focus:outline-none focus:ring-brown-primary ">
-        {{msg}}
-    </button>
+    <a :href="btn.link" target="_blank">
+        <button class="px-3 py-2 text-white text-xs font-sm text-center 
+        bg-pink-primary border-2 border-brown-primary hover:bg-brown-primary focus:bg-brown-secondary">
+            {{btn.msg}}
+        </button>
+    </a>
+    
 </template>
 
 <script setup>
-    import { defineProps } from 'vue';
+import { defineProps } from 'vue';
 
-    defineProps({
-        msg: String
-    })
+const btn = defineProps([
+    'msg', 'link'
+]);
 
 </script>
 

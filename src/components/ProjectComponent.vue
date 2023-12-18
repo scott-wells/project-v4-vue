@@ -1,31 +1,32 @@
 <template>
-	<div class="my-8">
-		<div class="mb-4">
-			<h3 class="mb-4 text-2xl font-medium leading-tight">{{ props.title }}</h3>
-			<p class="text-sm font-thin">{{ props.subtitle }}</p>
+
+<div class="p-4 border-2 border-brown-primary box-shad">
+		<div class="pb-3 border-b border-brown-tertiary">
+			<h3 class="pb-2 text-brown-primary text-xl font-medium leading-tight">{{ project.name }}</h3>
+			<p class="text-brown-secondary text-sm font-thin">{{ project.desc }}</p>
 		</div>
-		<ProjectTechComponent />
-		<a
-			:href="props.link"
-			target="_blank"
-			rel="noopener noreferrer"
-		>
-			<ButtonSm msg="View Project" />
-		</a>
+		<div class="pt-3 text-xs font-thin text-brown-secondary">
+			<p class="font-medium">Tech Used: </p>
+			<p class="pt-1">{{ project.tech }}</p>
+		</div>
+
+		<div class="pt-2">
+			<ButtonSm :link="project.link" msg="View Project" />
+		</div>
 	</div>
 </template>
 
 <script setup>
 import ButtonSm from '@/components/ButtonSm.vue';
-import ProjectTechComponent from '@/components/ProjectTechComponent.vue';
 import { defineProps } from 'vue';
 
-const props = defineProps({
-	title: String,
-	subtitle: String,
-	icons: [],
-	link: String,
-});
+const project = defineProps([
+	'name','desc','tech','link'
+]);
 </script>
 
-<style scoped></style>
+<style scoped>
+.box-shad {
+	box-shadow: 6px 6px 0px rgb(73, 56, 47);
+}
+</style>

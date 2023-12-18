@@ -5,26 +5,25 @@
 The goal of this project is to build a new portfolio that showcases my skills, work, as well as provides content other developers may find useful. Specifically, the content will be centered around tutorials, updates on projects and technologies I am working on, open source tools, and of course, a way for employers to get in contact with me.
 
 ## To Do:
-
--   ~~delete skills section~~
--   ~~get rid of burger menu~~
--   Documentation
--   APIs
+-   add about section
+-   add fade in animation for hero content
+-   style page for mobile
+-   style page for tablet
+-   style page for desktop
 
 ---
 
 ### Portfolio Website Outline
 
 -   Home page
-    <!-- nav on desktop starts at bottom and becomes sticky on scroll -->
     -   navigation
         -   projects (_links to current web sites, apps, open source_)
         -   about (_links to a resumé / about me page_)
-        -   contact
+        -   contact (_link to footer_)
         -   _Add later_
             -   articles (_turorial focused but also announcements_)
     -   hero section
-        -   image, title, subtitle, links
+        -   image, title, subtitle, nav links
     -   project section
         -   _build individually at first_
         -   card components that highlight each project
@@ -78,8 +77,7 @@ The goal of this project is to build a new portfolio that showcases my skills, w
     - ~~phonological awareness module 01~~
     - ~~phonological awareness module 02~~
     - ~~portfolio website~~
-    - make project component
-        - add slots to pass in icons
+    - ~~make project component~~
 
 ---
 
