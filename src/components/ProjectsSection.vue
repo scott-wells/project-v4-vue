@@ -2,35 +2,51 @@
     <!-- section container -->
     <!-- padding width height img border bg-color text -->
     <section id="project-section" class="py-12 px-6 bg-light-brown-primary border-b-8 border-brown-primary">
-
         <!-- section title -->
         <!-- padding width height img border -->
         <div class="pb-10">
-            <h2 class="text-4xl font-bold text-brown-primary">PROJECTS</h2>
-            <p class="py-4 text-sm font-thin text-brown-secondary">
-                Here is a simple collection of work that I have completed or are currently being built.
-            </p>
-            <div class="py-1 w-1/3 border-b-4 border-brown-primary"></div>
+            <div class="sm:w-1/2">
+                <h2 class="text-4xl font-bold text-brown-primary">PROJECTS</h2>
+                <p class="py-4 text-sm font-thin text-brown-secondary">
+                    Here is a simple collection of work that I have completed or is currently being built.
+                </p>
+            </div>
+            <div class="py-1 w-1/2 sm:w-1/3 border-b-4 border-brown-primary"></div>
         </div>
-
-        <!-- project components -->
-        <!-- padding width height img border -->
-        <div v-for="project in projectList" :key="project.name" class="pb-6" >
-            <ProjectComponent 
-                :name="project.name" 
-                :desc="project.desc" 
-                :tech="project.tech"
-                :link="project.link"
-            />
+        <div class="sm:grid grid-cols-2 gap-6">
+            <div 
+                v-for="project in mainProjectsList" 
+                :key="project.name" 
+                class="pb-6" >
+                <ProjectComponent 
+                    :name="project.name" 
+                    :desc="project.desc" 
+                    :tech="project.tech"
+                    :link="project.link"
+                />
+            </div>
+            <div 
+                v-for="project in addtlProjectsList" 
+                :key="project.name" 
+                class="pb-6" >
+                <ProjectComponent 
+                    :name="project.name" 
+                    :desc="project.desc" 
+                    :tech="project.tech"
+                    :link="project.link"
+                />
+            </div>
         </div>
     </section>
 </template>
 
 <script setup>
-import { projects } from "@/assets/projectList";
+import { addtlProjects } from "@/assets/additionalProjectsList";
+import { mainProjects } from "@/assets/mainProjectsList";
 import ProjectComponent from "@/components/ProjectComponent.vue";
 
-const projectList = projects;
+const addtlProjectsList = addtlProjects;
+const mainProjectsList = mainProjects;
 
 </script>
   
