@@ -7,9 +7,17 @@ The goal of this project is to build a new portfolio that showcases my skills, w
 ## To Do:
 -   add about section
 -   add fade in animation for hero content
--   style page for mobile
--   style page for tablet
--   style page for desktop
+-   style home page for mobile
+-   style home page for tablet
+-   style home page for desktop
+-   create projects/:project page
+-   add project thumbnail
+-   add project images/text
+-   style projects/:project page for mobile
+-   style projects/:project page for tablet
+-   style projects/:project page for desktop
+-   get project data from Github profile
+-   create Github library getters
 
 ---
 
@@ -44,7 +52,7 @@ The goal of this project is to build a new portfolio that showcases my skills, w
         -   contact info
     -   _Add later_ articles section
         -   recent blog posts
-        -   pull dynamically from database or markdown files
+        -   pull dynamically from Github or markdown files
         -   card components that highlight each blog post
             -   title, description, first 140 characters
         -   link to full page for each blog post

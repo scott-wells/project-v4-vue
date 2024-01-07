@@ -10,7 +10,8 @@ module.exports = {
               brown: {
                 'primary': 'rgba(70,32,0,1)',
                 'secondary': 'rgba(70,32,0,0.8)',
-                'tertiary': 'rgba(70,32,0,0.3)'
+                'tertiary': 'rgba(70,32,0,0.3)',
+                'offwhite': 'rgb(245 240 233,1)'
               },
               'light-brown': {
                 'primary': '#efe1cd',

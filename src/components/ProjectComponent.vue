@@ -1,6 +1,6 @@
 <template>
 
-<div class="p-4 border-2 border-brown-primary box-shad">
+<div class="p-4 bg-brown-offwhite border-2 border-brown-primary box-shad">
 		<div class="pb-3 border-b border-brown-tertiary">
 			<h3 class="pb-2 text-brown-primary text-xl font-medium leading-tight">{{ project.name }}</h3>
 			<p class="text-brown-secondary text-sm font-thin">{{ project.desc }}</p>

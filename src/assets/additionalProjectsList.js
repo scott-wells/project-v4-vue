@@ -51,6 +51,24 @@ export const projects = [
         name: "ABQ Trail Finder",
         desc: "A SPA that shows you trails near the Albuquerque city limits. Built with React, Mapbox, and AllTrails API.",
         tech: "React, Mapbox",
-        link: "https://github.com/scott-wells/trail-finder"
+        link: "https://scott-wells.com/trail-finder/"
+    },
+    {
+        name: "Music Player Clone",
+        desc: "An exercise in UI development. A webpage that shows a music player and playlists. Built with React.",
+        tech: "React, SaSS",
+        link: "https://github.com/scott-wells/music-player"
+    },
+    {
+        name: "Doge Meme Generator",
+        desc: "A silly app that creates doge memes. Built with Javascript.",
+        tech: "Javascript",
+        link: "https://scott-wells.com/doge-meme-generator/"
+    },
+    {
+        name: "Snake Game",
+        desc: "Classic snake game built with Javascript.",
+        tech: "Javascript",
+        link: "https://scott-wells.com/snake-game/"
     }
 ];
