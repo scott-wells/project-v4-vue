@@ -11,7 +11,7 @@
     "autoprefixer": "^9.8.8",
     "bootstrap-icons": "^1.10.3",
     "core-js": "^3.8.3",
-    "postcss": "^7.0.39",
+    "postcss": "^8.4.33",
     "vue": "^3.2.13",
     "vue-router": "^4.1.6"
   },
