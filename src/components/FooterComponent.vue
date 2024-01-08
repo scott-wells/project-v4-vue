@@ -1,6 +1,6 @@
 <template>
 
-    <footer class="py-6 px-6 bg-gray-primary text-white flex items-center gap-4">
+    <footer class="py-6 px-6 bg-pink-primary text-offwhite-primary flex items-center gap-4">
         <a href="/">
             <p class="font-black text-2xl tracking-tighter">SW</p>
         </a>

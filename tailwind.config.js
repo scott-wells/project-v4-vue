@@ -10,8 +10,7 @@ module.exports = {
               brown: {
                 'primary': 'rgba(70,32,0,1)',
                 'secondary': 'rgba(70,32,0,0.8)',
-                'tertiary': 'rgba(70,32,0,0.3)',
-                'offwhite': 'rgb(245 240 233,1)'
+                'tertiary': 'rgba(70,32,0,0.3)'
               },
               'light-brown': {
                 'primary': '#efe1cd',
@@ -22,15 +21,22 @@ module.exports = {
               'pink': {
                 primary: 'rgb(145,111,95,1)',
               },
-              'gray': {
-                primary: 'rgb(63,60,59,1)'
+              'offwhite': {
+                'primary': 'rgba(255,250,244,1)',
+                'secondary': 'rgba(255,250,244,.8)'
               }
             },
             backgroundImage: {
                 'hero-mobile': "url('../assets/images/desert_vert_xl_02.jpg')",
-                'hero': "url('../assets/images/desert_xl.jpg')",
+                'hero': "url('../assets/images/desert_xl.jpg')"
             },
             height: {
+              '128': '32rem',
+              '160': '40rem',
+              '168': '42rem',
+              '256': '64rem',
+            },
+            width: {
               '128': '32rem',
               '160': '40rem',
               '168': '42rem',
@@ -40,7 +46,7 @@ module.exports = {
               '12': '3rem',
               '13-half': '3.35rem',
             },
-            gridTemplateRows: {
+            gridTemplateColumns: {
               'hero': '1fr 2fr',
             },
             dropShadow: {

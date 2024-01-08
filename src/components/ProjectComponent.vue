@@ -1,6 +1,6 @@
 <template>
 
-<div class="p-4 bg-brown-offwhite border-2 border-brown-primary box-shad">
+<div class="p-4 bg-offwhite-primary hover:bg-offwhite-secondary transition ease-in-out delay-150 border-2 border-brown-primary box-shad">
 		<div class="pb-3 border-b border-brown-tertiary">
 			<h3 class="pb-2 text-brown-primary text-xl font-medium leading-tight">{{ project.name }}</h3>
 			<p class="text-brown-secondary text-sm font-thin">{{ project.desc }}</p>
@@ -28,5 +28,9 @@ const project = defineProps([
 <style scoped>
 .box-shad {
 	box-shadow: 6px 6px 0px rgb(73, 56, 47);
+	transition: box-shadow 0.15s ease-in-out;
+}
+.box-shad:hover {
+	box-shadow: 0px 0px 0px rgb(73, 56, 47);
 }
 </style>

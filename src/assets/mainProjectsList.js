@@ -1,4 +1,4 @@
-export const projects = [
+export const mainProjects = [
     {
         name: "Black Jack",
         desc: "A command line version of Black Jack built with C++.",
